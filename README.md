@@ -5,8 +5,11 @@
 ResonanceSegmenter (ResoSeg) is a deep learning model that jointly performs particle-level segmentation 
 and event-level classification, enabling a one-pass analysis of resonance to anything decays while 
 precisely reconstructing the relevant resonance properties.
-![ResoSeg](./pics/SamTagger_full.png)
-<center>The architecture of ResoSeg</center>
+
+<figure>
+    <img src="./pics/SamTagger_full.png" alt="ResoSeg">
+    <figcaption>The architecture of ResoSeg</figcaption>
+</figure>
 
 ![Two way attention block](./pics/TWA.png)
 <center>The architecture of Two way attention block</center>
