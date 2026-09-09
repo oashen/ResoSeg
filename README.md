@@ -11,8 +11,10 @@ precisely reconstructing the relevant resonance properties.
     <figcaption>The architecture of ResoSeg</figcaption>
 </figure>
 
-![Two way attention block](./pics/TWA.png)
-<center>The architecture of Two way attention block</center>
+<figure>
+    <img src="./pics/TWA.png" alt="TWA">
+    <figcaption>The architecture of Two way attention block</figcaption>
+</figure>
 
 ## Install
 
