@@ -22,7 +22,7 @@ Clone the repository from Git and enter the project directory:
 
 ```bash
 git clone https://github.com/oashen/ResoSeg.git
-cd EtacTagger
+cd ResoSeg
 ```
 
 We recommend using Conda to manage the ResoSeg environment. First, create and activate the environment:
