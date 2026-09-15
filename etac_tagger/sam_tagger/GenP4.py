@@ -6,7 +6,7 @@ Paper: "Particle Transformer for Jet Tagging" - https://arxiv.org/abs/2202.03772
 import copy
 import torch
 import torch.nn as nn
-from weaver.utils.logger import _logger
+# from weaver.utils.logger import _logger
 from .transformer import Block
 from .Encoder import Embed
 
@@ -37,7 +37,7 @@ class GenP4(nn.Module):
         cfg_block['activation']=block_activation
         if block_params is not None:
             cfg_block.update(block_params)
-        _logger.info('cfg_block: %s' % str(cfg_block))
+        #_logger.info('cfg_block: %s' % str(cfg_block))
 
         self.etac_embed = Embed(4, [embed_dim], activation=activation)
 

@@ -35,7 +35,7 @@ conda activate ResoSeg_gpu
 Then install the remaining Python dependencies:
 
 ```bash
-pip install pytorch_lightning weaver-core
+pip install pytorch_lightning
 ```
 
 If you need ROOT, install it on Linux with the following command:

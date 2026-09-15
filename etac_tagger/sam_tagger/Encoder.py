@@ -9,7 +9,7 @@ import copy
 import torch
 import torch.nn as nn
 from functools import partial
-from weaver.utils.logger import _logger
+# from weaver.utils.logger import _logger
 from .transformer import Block
 
 
@@ -277,7 +277,7 @@ class Encoder(nn.Module):
         cfg_block['activation']=block_activation
         if block_params is not None:
             cfg_block.update(block_params)
-        _logger.info('cfg_block: %s' % str(cfg_block))
+        # _logger.info('cfg_block: %s' % str(cfg_block))
 
         self.embed = Embed(input_dim, embed_dims, activation=activation) if len(embed_dims) > 0 else nn.Identity() # 占位符层
 
